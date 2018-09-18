@@ -10,7 +10,7 @@ namespace MongoDBProject
     public interface IMongoModel
     {
         /// <summary>
-        /// Propiedad que debe tener todo modelo
+        /// Propiedad que debe tener todo modelo mongo
         /// </summary>
         [BsonId(IdGenerator = typeof(BsonObjectIdGenerator))]
         ObjectId id { get; set; }
